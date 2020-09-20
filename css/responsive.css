@@ -1,0 +1,84 @@
+@media only screen and (min-width: 769px) {
+    
+    .navbar-mobile,
+    .burger-menu {
+        display: none;
+    }       
+}
+
+
+@media only screen and (max-width: 768px) {
+    .nav-links,
+    .nav-social{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    
+/*------ HOMEPAGE ------*/
+
+    
+    .home-header {
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .header-left {
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .header-left img {
+        width: auto;
+        height: 100%;
+    }
+    
+    .header-right {
+        width: 100%;
+        display: block;
+    }
+    
+    .header-right-text {
+        margin: 80px 80px 80px 80px;
+    }
+    
+    .home-about {
+        flex-direction: column;
+        height: auto;
+        min-height: 0;
+    }
+    
+    .about-left,
+    .about-right {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+    
+    .about-left-image {
+        width: 100%;
+    }
+    
+    .about-right img {
+        width: 100%;  
+        padding-top: 50px;
+    }
+    
+    .home-video p {
+        width: 100%;
+    }
+    
+    .video-image {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .video-image-box {
+        min-width: 300px;
+    }
+}
+
