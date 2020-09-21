@@ -11,6 +11,9 @@
 
 /*------ NAVBAR ------*/
 
+.navbar {
+    background-color: #FFFFFF;
+}
 
 .logo {
     font-family: 'Montserrat', sans-serif;
@@ -38,10 +41,6 @@
 .nav-links-bold:hover {
     color: #D4AE36;
     text-decoration: none;
-}
-
-.navbar-scroll-colour {
-    background-color: #FFFFFF;
 }
 
 
