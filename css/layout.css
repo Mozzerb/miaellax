@@ -142,18 +142,20 @@
     align-items: center;
 }
 
+.about-left-container p {    
+    padding-bottom: 60px;
+}
+
 .about-left-image {
     width: 100%;
-    height: auto;
-    
+    height: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: aqua
 }
 
 .about-left img {
     width: 47%;
-    margin-top: 70px;
+    height: auto;
 }
 
 .about-right {
