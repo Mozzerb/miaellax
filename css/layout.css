@@ -74,7 +74,8 @@
 .p-footer{
     padding: 2px 0px 2px 0px;
     display: flex;
-    justify-content: center;   
+    justify-content: center;
+    text-align: center;
 }
 
 
