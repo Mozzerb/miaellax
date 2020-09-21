@@ -1,0 +1,290 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*------ NAVBAR ------*/
+
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    padding: 40px 40px 40px 40px; 
+    position: fixed; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+
+.nav-links a{
+    padding: 0px 10px 0px 10px;
+}
+
+
+/*------ BURGER NAVBAR ------*/
+
+.navbar-mobile {
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    padding: 40px 40px 40px 40px; 
+    position: fixed; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.nav-links-mobile a{
+    padding: 0px 5px 0px 5px;
+}
+
+/*------ FOOTER ------*/
+
+
+.footer {
+    width: 100%;
+    min-width: 320px;
+}
+
+.footer-social {
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social a i {
+    padding: 0px 15px 0px 15px;   
+}
+
+.footer a {
+    display: flex;
+    justify-content: center
+}
+
+.copyright{
+    padding: 30px
+}
+
+.p-footer{
+    padding: 2px 0px 2px 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*------ HOMEPAGE HEADER ------*/
+
+
+.homepage-body {
+    width:100%;
+}
+
+.home-header {
+    width: 100wh;
+    height: 100vh;
+    min-width: 320px;
+    display: flex;
+}
+
+.header-left {    
+    width: 50%;
+    height: 100vh;  
+    padding-left: 110px;
+    text-align: right;
+}
+
+.header-left img {
+    min-width: 320px;
+    height: 100vh;
+}
+
+.header-right {
+    width: 50%;
+    min-width: 320px;
+}
+
+.header-right-text {
+    margin: 30% 80px 30% 80px;
+}
+
+.header-right-text h2 {
+    padding-bottom: 20px;
+}
+
+.header-right-text p {
+    padding: 50px 0px 50px 0px;
+}
+
+
+/*------ HOMEPAGE ABOUT ------*/
+
+
+.home-about {
+    width: 100wh;
+    min-width: 320px;
+    height: 100vh;
+    padding: 80px;
+    display: flex;
+}
+
+.about-left {    
+    width: 50%;
+    height: auto;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.about-left-image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-left img {
+    width: 47%;
+    height: auto;
+    padding-top: 70px;
+}
+
+.about-right {
+    width: 50%;
+    height: auto;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.about-right img {
+    width: auto;
+    height: 100%;
+}
+
+
+/*------ HOMEPAGE BRANDS ------*/
+
+
+.home-brands {
+    width: 100wh;
+    min-width: 320px;
+    padding: 80px;
+}
+
+.home-brands h1 {
+    padding: 0px;
+}
+
+.brand-logo {
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    display: inline-block;
+    text-align: center
+}
+
+.brand-logo img {
+    max-height: 100px;
+    min-height: 20px;
+}
+
+.h1-right {
+    text-align: right
+}
+
+
+/*------ HOMEPAGE TESTIMONIALS ------*/
+
+
+.home-testimonial {
+    width: 100wh;
+    min-width: 320px;
+    padding: 80px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*------ HOMEPAGE VIDEO ------*/
+
+
+.home-video {
+    width: 100wh;
+    min-width: 320px;
+    padding: 80px;
+    z-index: -1;
+}
+
+.home-video p {
+    width: 50%;
+}
+
+.video-image {
+    width: 100wh;
+    height: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-image-box {
+    width: 30%;
+    margin-top: 60px;
+    cursor:pointer;
+    position: relative;
+    z-index: 0;
+}
+
+.video-image-box img{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: block; 
+}
+
+.video-image-caption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+
+.video-image-text {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.video-image-text h1,
+.video-image-text p {
+    width: 100%;
+    text-align: left;
+}
+
