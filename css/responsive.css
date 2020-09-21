@@ -1,7 +1,6 @@
 @media only screen and (min-width: 769px) {
     
-    .navbar-mobile,
-    .burger-menu {
+    .navbar-mobile {
         display: none;
     }       
 }
@@ -28,13 +27,14 @@
     
     .header-left {
         width: 100%;
+        height: auto;
         padding-left: 0px;
         text-align: center;
     }
     
     .header-left img {
-        width: auto;
-        height: 100%;
+        width: 100vw;
+        height: auto;
     }
     
     .header-right {
@@ -78,7 +78,27 @@
     }
     
     .video-image-box {
-        min-width: 300px;
+        min-width: 280px;
     }
 }
 
+@media only screen and (max-width: 500px) {
+
+    .header-right-text {
+        margin: 40px;
+    }
+    
+    .home-about,
+    .home-brands,
+    .home-testimonial,
+    .home-video {
+        padding: 40px;
+    }
+    
+    .brand-logo img {
+        max-height: 40px;
+    }
+    
+    
+
+}

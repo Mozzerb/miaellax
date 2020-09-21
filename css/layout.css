@@ -28,52 +28,20 @@
 
 /*------ BURGER NAVBAR ------*/
 
-
-.burger-menu {
-    padding: 15px 20px;
-    position: fixed;
-    top: 0;
-    right:0;
-    z-index: 5;
-}
-
-.navbar-mobile .closebtn {
-    padding: 8px 20px;
-    position: absolute;
-    text-decoration: none;
-    top: 0;
-    right: 0;
-    z-index: 4;
-}
-
 .navbar-mobile {
-    width: 0;
-    height: 100%;
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-    right: 0;
-    transition: 0.5s;
-    z-index: 4;
-}
-
-.navbar-mobile .burger-links {
     width: 100%;
-    height: 100%;
+    height: 60px;
+    margin: 0px;
+    padding: 40px 40px 40px 40px; 
+    position: fixed; 
     display: flex;
-    justify-content: center;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    z-index: 10;
 }
 
-.navbar-mobile .burger-links li{
-    padding: 3%;
-    list-style: none;
-}
-
-.navbar-mobile li a {
-    display: block;
-    transition: 0.3s;
+.nav-links-mobile a{
+    padding: 0px 5px 0px 5px;
 }
 
 /*------ FOOTER ------*/
@@ -81,7 +49,7 @@
 
 .footer {
     width: 100%;
-    min-width: 600px;
+    min-width: 320px;
 }
 
 .footer-social {
@@ -120,8 +88,7 @@
 .home-header {
     width: 100wh;
     height: 100vh;
-    min-width: 600px;
-    min-height: 800px;
+    min-width: 320px;
     display: flex;
 }
 
@@ -133,13 +100,13 @@
 }
 
 .header-left img {
+    min-width: 320px;
     height: 100vh;
-    min-height: 800px;
 }
 
 .header-right {
     width: 50%;
-    min-height: 600px;
+    min-width: 320px;
 }
 
 .header-right-text {
@@ -160,9 +127,8 @@
 
 .home-about {
     width: 100wh;
-    min-width: 600px;
+    min-width: 320px;
     height: 100vh;
-    min-height: 800px;
     padding: 80px;
     display: flex;
 }
@@ -203,7 +169,7 @@
 
 .home-brands {
     width: 100wh;
-    min-width: 600px;
+    min-width: 320px;
     padding: 80px;
 }
 
@@ -219,7 +185,8 @@
 }
 
 .brand-logo img {
-    height: 100px
+    max-height: 100px;
+    min-height: 20px;
 }
 
 .h1-right {
@@ -232,7 +199,7 @@
 
 .home-testimonial {
     width: 100wh;
-    min-width: 600px;
+    min-width: 320px;
     padding: 80px;
 }
 
@@ -248,7 +215,7 @@
 
 .home-video {
     width: 100wh;
-    min-width: 600px;
+    min-width: 320px;
     padding: 80px;
     z-index: -1;
 }
@@ -276,6 +243,7 @@
 .video-image-box img{
     width: 100%;
     height: auto;
+    padding: 20px;
     display: block; 
 }
 
