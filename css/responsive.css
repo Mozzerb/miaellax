@@ -59,6 +59,7 @@
     
     .about-left-image {
         width: 100%;
+        height: auto;
     }
     
     .about-right img {
