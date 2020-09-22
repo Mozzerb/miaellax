@@ -147,15 +147,14 @@
 
 .about-left-image {
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .about-left img {
-    max-width: 47%;  
-    max-height: 47%;
+    max-width: 47%;
     height: auto !important;
-    display: block;
 }
 
 .about-right {
