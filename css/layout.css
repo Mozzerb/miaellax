@@ -136,7 +136,6 @@
 
 .about-left {    
     width: 50%;
-    height: auto;
     padding-right: 50px;
     display: flex;
     align-items: center;
@@ -148,19 +147,16 @@
 
 .about-left-image {
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .about-left img {
     width: 47%;
-    height: auto;
 }
 
 .about-right {
     width: 50%;
-    height: auto;
     padding-left: 50px;
     display: flex;
     align-items: center;
@@ -168,7 +164,6 @@
 }
 
 .about-right img {
-    width: auto;
     height: 100%;
 }
 

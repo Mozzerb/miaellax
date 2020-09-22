@@ -53,12 +53,12 @@
     .about-left,
     .about-right {
         width: 100%;
-        height: auto;
         padding: 0px;
     }
     
     .about-right img {
-        width: 100%;  
+        width: 100%;
+        height: auto;
         padding-top: 50px;
     }
     
