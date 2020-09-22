@@ -149,11 +149,10 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: antiquewhite
 }
 
 .about-left img {
-    width: 47%;
+    width: 40%;
     height: auto;
 }
 

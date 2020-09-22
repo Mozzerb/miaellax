@@ -93,11 +93,21 @@
         padding: 40px;
     }
     
+    .about-left-container p {    
+        padding-bottom: 0px;
+    }
+    
+    .about-left-image {
+        flex-wrap: wrap
+    }
+    
+    .about-left img {
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+    
     .brand-logo img {
         max-height: 40px;
     }
-    
-    
-    
-
 }
