@@ -152,8 +152,10 @@
 }
 
 .about-left img {
-    width: 47%;
+    max-width: 47%;  
+    max-height: 47%;
     height: auto !important;
+    display: block;
 }
 
 .about-right {
