@@ -153,6 +153,7 @@
 
 .about-left img {
     width: 47%;
+    height: auto !important;
 }
 
 .about-right {
