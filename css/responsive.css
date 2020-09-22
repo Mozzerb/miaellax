@@ -56,6 +56,10 @@
         padding: 0px;
     }
     
+    .about-left-image {
+        flex-direction: column;
+    }
+    
     .about-right img {
         width: 100%;
         height: auto;
