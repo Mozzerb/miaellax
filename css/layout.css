@@ -146,13 +146,15 @@
 }
 
 .about-left-image {
-    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: antiquewhite
 }
 
 .about-left img {
-    height: 100%;
+    width: 47%;
+    height: auto;
 }
 
 .about-right {
