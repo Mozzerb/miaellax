@@ -165,6 +165,7 @@ h3 {
     font-family: 'Baskervville', serif;
     font-weight: 300;
     font-size: 25px;
+    line-height: 1.5em;
     color: #003222;
     font-style: italic;
     text-align: center;
@@ -199,7 +200,8 @@ p {
     color: #003222;
 }
 
-.testimonial hr {
+.testimonial hr,
+.testimonial-2 hr {
     border: 1px solid #003222;
     padding: 0px 10% 0px 0px;
     margin: 40px 0px 20px 0px;

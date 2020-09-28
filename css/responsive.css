@@ -103,16 +103,21 @@
     }
     
     .about-left-image {
-        flex-wrap: wrap
+        flex-wrap: wrap;
     }
     
     .about-left img {
-        width: auto;
-        height: 100%;
+        width: 100%;
+        height: auto;
         padding-top: 50px;
     }
     
     .brand-logo img {
         max-height: 40px;
+    }
+    
+    .testimonial h3,
+    .testimonial-2 h3 {
+        font-size: 20px;
     }
 }
