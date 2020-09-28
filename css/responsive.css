@@ -103,12 +103,13 @@
     }
     
     .about-left-image {
-        flex-wrap: wrap;
+        display: inline-block;
     }
     
     .about-left img {
         width: 100%;
         min-width: 250px;
+        height: auto;
         padding-top: 50px;
     }
     
