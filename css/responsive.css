@@ -72,7 +72,7 @@
     }
     
     .video-image-box {
-        min-width: 280px;
+        min-width: 250px;
     }
 }
 
@@ -108,7 +108,7 @@
     
     .about-left img {
         width: 100%;
-        height: auto;
+        min-width: 250px;
         padding-top: 50px;
     }
     
