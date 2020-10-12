@@ -219,7 +219,9 @@ p {
 
 .home-header,
 .header-left,
-.header-right {
+.header-right,
+.home-brands,
+.home-testimonial {
     background-color: #FFFFFF;
 }
 
