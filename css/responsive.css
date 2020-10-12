@@ -33,6 +33,8 @@
     .header-left img {
         width: 100vw;
         height: auto;
+        min-width: 0x;
+        min-height:0;
     }
     
     .header-right {
