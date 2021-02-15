@@ -1,0 +1,251 @@
+/*------ GENERAL ------*/
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #003222;
+}
+
+
+/*------ NAVBAR ------*/
+
+.navbar {
+    background-color: #FFFFFF;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #003222;
+    text-decoration: none;
+}
+
+.nav-links a {
+    font-family: 'Baskervville', serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #003222;
+    text-decoration: none;
+}
+
+.nav-links-bold {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.nav-links a:hover,
+.nav-links-bold:hover {
+    color: #D4AE36;
+    text-decoration: none;
+}
+
+
+/*------ BURGER NAVBAR ------*/
+
+.logo-mobile {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #003222;
+    text-decoration: none;
+}
+
+.navbar-mobile {
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 5;
+}
+
+.nav-links-mobile a i {
+    font-size: 20px;
+    color: #003222;
+    text-decoration: none;
+}
+
+.nav-links-mobile a i:hover{
+    color: #D4AE36;
+    text-decoration: none;
+}
+
+/*------ FOOTER ------*/
+
+
+.footer {
+    background-color: #FFFFFF;
+}
+
+.footer-social a {
+     text-decoration: none;
+}
+
+.footer-social a i {
+    font-size: 40px;
+    color: #003222;
+}
+
+.footer-social a i:hover {
+    font-size: 40px;
+    color: #D4AE36;
+}
+
+.footer-contact {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer-contact:hover {
+    color: #D4AE36;
+    text-decoration: none;
+}
+
+.footer-line {
+    border: 1px solid #003222;
+    margin: 40px 3% 0px 3%;
+}
+
+.p-footer {
+    font-weight: 100;
+    font-size: 14px;
+    color: #003222;
+}
+
+
+/*------ BUTTONS ------*/
+
+
+.button {
+    font-family: 'Baskervville', serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #D4AE36;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    padding: 10px 30px;
+    border-radius: 0.6em;
+}
+
+.button:hover {
+    background-color: #003222;
+}
+
+
+/*------ FONTS ------*/
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    color: #D4AE36;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: #003222;
+}
+
+h3 {
+    font-family: 'Baskervville', serif;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 1.5em;
+    color: #003222;
+    font-style: italic;
+    text-align: center;
+}
+
+h4 { 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #003222;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #003222;
+    line-height: 1.6;
+}
+
+.p-white {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.testimonial-quotation {
+    font-family: 'Passion One', cursive;
+    font-weight: 700;
+    font-size: 70px;
+    color: #003222;
+}
+
+.testimonial hr,
+.testimonial-2 hr {
+    border: 1px solid #003222;
+    padding: 0px 10% 0px 0px;
+    margin: 40px 0px 20px 0px;
+}
+
+
+/*------ HOMEPAGE ------*/
+
+
+.home-about,
+.home-video {
+    background-color: #003222;
+}
+
+
+.home-header,
+.header-left,
+.header-right,
+.home-brands,
+.home-testimonial {
+    background-color: #FFFFFF;
+}
+
+
+.video-image-caption {
+    background-color: #D4AE36;
+}
+
+.video-image-box:hover .video-image-caption {
+    opacity: 0.9;
+}
+
+.video-image-text {
+    color: #FFFFFF;
+}
+
+.video-image-text h1,
+.video-image-text p {
+    color: #003222 !important;
+
+}
+
+.video-image-text h1 {
+    letter-spacing: 0.2em !important;
+    font-weight: 700 !important;
+}
+

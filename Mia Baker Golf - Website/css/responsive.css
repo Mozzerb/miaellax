@@ -1,0 +1,137 @@
+@media only screen and (min-width: 769px) {
+    .navbar-mobile {
+        display: none;
+    }       
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    
+/*------ HOMEPAGE ------*/
+
+    
+    .home-header {
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .header-left {
+        width: 100%;
+        height: auto;
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .header-left img {
+        width: 100vw;
+        height: auto;
+        min-width: 0x;
+        min-height:0;
+    }
+    
+    .header-right {
+        width: 100%;
+        display: block;
+    }
+    
+    .header-right-text {
+        margin: 80px 80px 80px 80px;
+    }
+    
+    .home-about {
+        flex-direction: column;
+        height: auto;
+        min-height: 0;
+    }
+    
+    .about-left,
+    .about-right {
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .about-right img {
+        width: 100%;
+        height: auto;
+        max-height:none;
+        padding-top: 50px;
+    }
+    
+    .home-video p {
+        width: 100%;
+    }
+    
+    .video-image {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .video-image-box {
+        min-width: 250px;
+    }
+    
+    .video-image-text {
+        padding: 20px;
+    }
+    
+    .video-image-text h1,
+    .video-image-text p{
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    h1 {
+        letter-spacing: 0.2em;  
+    }  
+    
+    .navbar-mobile {
+        padding: 20px; 
+    }
+
+    
+    .header-right-text {
+        margin: 40px;
+    }
+    
+    .home-about,
+    .home-brands,
+    .home-testimonial,
+    .home-video {
+        padding: 40px;
+    }
+    
+    .about-left-container p {    
+        padding-bottom: 0px;
+    }
+    
+    .about-left-image {
+        display: inline-block;
+    }
+    
+    .about-left img {
+        width: 100%;
+        min-width: 250px;
+        height: auto;
+        padding-top: 50px;
+    }
+    
+    .brand-logo img {
+        max-height: 40px;
+    }
+    
+    .testimonial h3,
+    .testimonial-2 h3 {
+        font-size: 20px;
+    }
+}
